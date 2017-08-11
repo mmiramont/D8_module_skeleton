@@ -1,0 +1,7 @@
+name: Module Skeleton
+description: Module Skeleton
+package: Custom
+type: module
+version: 1.0
+core: 8.x
+configure: module_skeleton.admin_settings

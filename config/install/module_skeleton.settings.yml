@@ -1,0 +1,4 @@
+# Set your module default configuration here.
+# Example:
+hello:
+  name: "Everyone"

@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Function to register all module's templates.
+ * Based on: https://www.drupal.org/docs/8/theming/twig/create-custom-twig-templates-from-custom-module .
+ */
+function block_example_theme($existing, $type, $theme, $path) {
+  return [
+    'template_example' => [
+      'variables' => ['name' => NULL],
+    ],
+  ];
+}

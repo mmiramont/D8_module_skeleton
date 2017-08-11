@@ -1,0 +1,17 @@
+#Path routing
+module_skeleton.content:
+  path: '/yourpath'
+  defaults:
+    _controller: '\Drupal\module_skeleton\Controller\SkeletonController::default'
+    # _title: 'Your title, optional'
+  requirements:
+    _permission: 'access content'
+
+# Admin configuration routing
+module_skeleton.admin_settings:
+  path: '/admin/config/module_skeleton'
+  defaults:
+    _form: '\Drupal\module_skeleton\Form\ModuleConfigurationForm'
+    _title: 'Module admin configuration'
+  requirements:
+    _permission: 'administer site configuration'
